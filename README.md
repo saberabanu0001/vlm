@@ -34,3 +34,27 @@ The **VLM** is designed to act as the "eyes" and "voice" of an intelligent agent
 
 - Install Dependencies
 ***pip install opencv-python torch transformers Pillow numpy***
+
+
+
+## 💻 Usage
+- 1. Prepare Environment
+
+Ensure your webcam is connected and recognized by the system.
+
+- 2. Run the Script
+
+Save your Python file (for example: vlm_captioner.py) and execute:
+
+python vlm_captioner.py
+
+- 3. Interact
+
+### You’ll see:
+- 🎥 VLM live test started — press 'q' to quit.
+
+- A window titled "VLM Webcam Captioning" will open, showing the live feed.
+
+- Captions will update approximately every 2 seconds.
+
+- Press q to exit the program gracefully.
