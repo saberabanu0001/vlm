@@ -13,10 +13,24 @@ The **VLM** is designed to act as the "eyes" and "voice" of an intelligent agent
  - - Uses Hugging Face transformers to load and run the BLIP model for image-to-text captioning.
 
 - ✅ Performance Optimization:
---Processes only 1 out of every 60 frames (~2 s at 30 FPS) to prevent lag.
+ - - Processes only 1 out of every 60 frames (~2 s at 30 FPS) to prevent lag.
 
 - ✅ Zero-Gradient Inference:
 - - Employs torch.no_grad() for faster inference and lower memory usage.
 
 - - ✅ Live Caption Overlay:
  - - Displays the generated caption directly on the video feed window in real time.
+
+
+
+ ## 🛠️ Prerequisites
+- System Requirements
+
+***Python 3.8 +***
+
+- A working webcam
+
+***GPU (optional, but strongly recommended)***
+
+- Install Dependencies
+***pip install opencv-python torch transformers Pillow numpy***
